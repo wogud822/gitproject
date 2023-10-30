@@ -22,5 +22,8 @@ public class HomeController {
 		logger.info("index");
 		return "home";
 	}
-	
+	@RequestMapping(value="/list")
+	public String list(Model model) {
+		return "list";
+	}
 }
