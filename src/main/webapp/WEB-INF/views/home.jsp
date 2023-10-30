@@ -24,6 +24,12 @@
 	</ul>
 </body>
 <script>
-
+	var msg = "${msg}";
+	if(msg !=""){
+		alert(msg);
+	}
+	${'li'}.on('click',function(){
+		alert('click');
+	});
 </script>
 </html>
